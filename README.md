@@ -7,3 +7,7 @@
 + The Master module is responsible for signal conditioning, data acquisition and transmitting to formatted data to slave along with checksum byte.
 + The Slave module receives the data form master and displays it on the panel.
 + Checksum error detection is incorporated in the communication protocol.
+
+
+## Firmware Reuirements
+![Microchip1](Microchip%20Firmware%20Reqirements.png)
