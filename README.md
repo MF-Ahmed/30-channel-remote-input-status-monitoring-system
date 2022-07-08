@@ -9,5 +9,5 @@
 + Checksum error detection is incorporated in the communication protocol.
 
 
-## Firmware Reuirements 8-)
+## Firmware Reuirements 👍
 ![Microchip1](Microchip%20Firmware%20Reqirements.png)
