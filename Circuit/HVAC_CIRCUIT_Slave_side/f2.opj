@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\slave side.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\slave side.dsn")
+      (Path "Design Resources" ".\slave side.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\slave side.dsn" "SCHEMATIC1"
+         "slave_30_channel_remote_input_"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 599"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1446 52 690")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "E:\APAS30CHANNEL\CIRCUIT\HVAC_CIRCUIT_SLAVE_SIDE\SLAVE SIDE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "slave_30_channel_remote_input_"))))

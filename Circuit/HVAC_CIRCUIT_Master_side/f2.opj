@@ -1,0 +1,36 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\hvac_design.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\hvac_design.dsn")
+      (Path "Design Resources" ".\hvac_design.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\hvac_design.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 395"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 1216 50 483")
+        (Scroll "128 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "E:\APAS 30CHANNEL\CIRCUIT\HVAC_CIRCUIT_MASTER_SIDE\HVAC_DESIGN.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

@@ -1,0 +1,45 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\slave side.dbk.dbk.dbk.dbk.dbk"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (RES
+      (FullPartName "RES.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\OLDLIBS\PSPICE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\slave side.dbk.dbk.dbk.dbk.dbk")
+      (Path "Design Resources" ".\slave side.dbk.dbk.dbk.dbk.dbk" "SCHEMATIC1")
+      (Select "Design Resources" ".\slave side.dbk.dbk.dbk.dbk.dbk"
+         "SCHEMATIC1" "Display_Pannel"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 583"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 1426 50 671")
+        (Scroll "0 0")
+        (Zoom "121")
+        (Occurrence "/"))
+      (Path
+         "D:\APAS30CHANNEL\CIRCUIT\HVAC_CIRCUIT_SLAVE_SIDE\SLAVE SIDE.DBK.DBK.DBK.DBK.DBK")
+      (Schematic "SCHEMATIC1")
+      (Page "Display_Pannel"))))

@@ -1,0 +1,622 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Farhan\AppData\Local\Temp\s554.obj
+end_init CODE 0 12 12 3 2
+reset_vec CODE 0 0 0 3 2
+config CONFIG 0 2007 2007 1 2
+$dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+cinit CODE 0 15 15 18 2
+intentry CODE 0 4 4 E 2
+text19 CODE 0 423 423 28 2
+text18 CODE 0 44B 44B 27 2
+text17 CODE 0 4ED 4ED 12 2
+text16 CODE 0 16D 16D 85 2
+text15 CODE 0 48D 48D 18 2
+text14 CODE 0 4DB 4DB 12 2
+text13 CODE 0 4C9 4C9 12 2
+text12 CODE 0 4B7 4B7 12 2
+text11 CODE 0 4A5 4A5 12 2
+text10 CODE 0 3F8 3F8 2B 2
+text9 CODE 0 4FF 4FF D 2
+text8 CODE 0 1F2 1F2 7A 2
+text7 CODE 0 50C 50C C 2
+text6 CODE 0 3CC 3CC 2C 2
+text5 CODE 0 39B 39B 31 2
+text4 CODE 0 34E 34E 4D 2
+text3 CODE 0 472 472 1B 2
+text2 CODE 0 2D 2D 140 2
+text1 CODE 0 520 520 6 2
+maintext CODE 0 26C 26C 53 2
+cstackBANK0 BANK0 1 61 61 F 1
+cstackCOMMON COMMON 1 75 75 5 1
+cstackBANK1 BANK1 1 EF EF 1 1
+clrtext CODE 0 518 518 8 2
+bssBANK1 BANK1 1 A0 A0 4F 1
+bssBANK0 BANK0 1 20 20 41 1
+bssCOMMON COMMON 1 70 70 5 1
+strings STRING 0 300 300 4E 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+BANK2 0110-016F 1
+BANK3 0190-01EF 1
+CODE 0003-0003 2
+CODE 02BF-02FF 2
+CODE 0526-1FFF 2
+COMMON 007A-007D 1
+CONST 0003-0003 2
+CONST 02BF-02FF 2
+CONST 0526-1FFF 2
+EEDATA 2100-21FF 2
+ENTRY 0003-0003 2
+ENTRY 02BF-02FF 2
+ENTRY 0526-1FFF 2
+IDLOC 2000-2003 2
+RAM 0110-016F 1
+RAM 0190-01EF 1
+SFR0 0000-001F 1
+SFR1 0080-009F 1
+SFR2 0100-010F 1
+SFR3 0180-018F 1
+STRCODE 0003-0003 2
+STRCODE 02BF-02FF 2
+STRCODE 0526-1FFF 2
+STRING 0003-0003 2
+STRING 02BF-02FF 2
+STRING 0526-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <file name>:<line number> <address> <psect name> <class name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":39 4 intentry CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":469 15 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":470 16 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":471 17 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":472 18 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":473 19 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":476 1A cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":477 1B cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":478 1C cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":479 1D cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":480 1E cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":483 23 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":484 24 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":485 25 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":486 26 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":493 29 cinit CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":494 2A cinit CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":256 2D text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":257 30 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":260 36 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":261 4B text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":262 60 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":263 75 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":264 8A text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":266 9F text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":268 A7 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":269 AD text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":270 B3 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":271 B9 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":273 C2 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":275 CA text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":276 D0 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":277 D6 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":278 DC text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":280 E5 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":282 ED text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":283 F3 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":284 F9 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":285 FF text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":287 108 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":290 110 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":291 116 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":292 11C text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":293 122 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":296 12B text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":298 131 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":299 135 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":302 139 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":305 144 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":307 145 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":308 146 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":312 147 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":313 14D text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":314 155 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":315 15D text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":316 165 text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":317 16B text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":201 16D text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":325 16D text2 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":202 178 text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":203 184 text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":204 196 text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":205 1A9 text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":206 1BA text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":207 1CC text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":208 1DF text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":211 1F1 text16 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":397 1F2 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":398 1F5 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":400 1F6 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":402 206 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":403 20A text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":404 20F text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":407 21D text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":409 221 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":410 226 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":415 22B text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":418 23B text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":419 243 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":420 249 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":425 257 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":426 25F text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":428 265 text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":434 26A text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":90 26C maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":438 26C text8 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":91 271 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":92 276 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":93 27B maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":94 280 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":99 285 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":103 28A maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":104 292 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":105 297 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":106 29F maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":107 2A4 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":108 2AC maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":109 2B1 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":110 2B9 maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":96 2BE maintext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":118 2BF maintext CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\include\pic16f877.h":2147 300 strings STRING
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":377 34E text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":378 356 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":379 363 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":381 368 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":382 36B text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":383 36F text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":384 373 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":385 375 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":386 37D text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":387 381 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":379 387 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":390 391 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":391 394 text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":393 39B text4 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":446 39B text5 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":447 3AC text5 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":449 3B6 text5 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":447 3C3 text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":8 3CC text6 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":451 3CC text5 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":9 3D3 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":10 3DD text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":9 3E1 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":12 3E2 text6 CODE
+"C:\Program Files (x86)\Microchip\xc8\v1.21\sources\common\strlen.c":13 3F8 text6 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":147 3F8 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":148 3FE text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":149 403 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":150 409 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":151 40E text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":152 414 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":153 419 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":154 41F text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":156 422 text10 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":41 423 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":45 425 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":46 426 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":47 427 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":48 42B text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":54 42E text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":58 42F text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":63 430 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":65 432 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":66 43A text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":67 43E text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":68 43F text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":71 440 text19 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":91 44B text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":92 44E text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":93 44F text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":94 450 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":95 451 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":96 452 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":97 453 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":98 454 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":100 455 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":101 458 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":102 459 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":103 45A text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":104 45B text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":105 45C text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":106 45D text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":107 45E text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":110 45F text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":111 462 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":112 463 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":113 464 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":114 465 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":117 466 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":118 469 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":119 46A text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":120 46B text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":121 46C text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":124 46D text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":125 470 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":127 471 text18 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":331 472 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":332 475 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":336 476 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":346 481 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":349 485 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":350 487 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":355 488 text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":34 48D text15 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":358 48D text3 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":35 4A5 text15 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":246 4A5 text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":247 4A8 text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":248 4AD text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":249 4B0 text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":250 4B3 text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":251 4B6 text11 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":237 4B7 text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":238 4BA text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":239 4BF text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":240 4C2 text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":241 4C5 text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":242 4C8 text12 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":228 4C9 text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":229 4CC text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":230 4D1 text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":231 4D4 text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":232 4D7 text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":233 4DA text13 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":217 4DB text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":218 4DE text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":219 4E3 text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":220 4E6 text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":221 4E9 text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":222 4EC text14 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":133 4ED text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":134 4F1 text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":135 4F2 text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":136 4F5 text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":137 4F8 text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":138 4FB text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":141 4FE text17 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":181 4FF text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":182 502 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":184 503 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":185 504 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":187 505 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":188 506 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":189 507 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":190 508 text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":192 50B text9 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":159 50C text7 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":160 50F text7 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":161 513 text7 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\Config.h":163 517 text7 CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":457 518 clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":459 519 clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":460 51A clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":461 51B clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":462 51C clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":463 51D clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":464 51E clrtext CODE
+"C:\Users\Farhan\AppData\Local\Temp\s554.":465 51F clrtext CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":77 520 text1 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":78 521 text1 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":79 522 text1 CODE
+"E:\APAS30CHANNEL\firmware\RIMS_4_BYTE_RECIEVER.X\RIMS_4_BYTE_RECIEVER.c":82 525 text1 CODE
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_i 56 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_data_Rx_Curr 39 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of__CLK3 992 0 CODE 0 text12 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_go 73 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__S0 2008 0 ABS 0 - -
+__S1 F0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__Hintentry 24 0 CODE 0 intentry -
+__Lintentry 8 0 CODE 0 intentry -
+__size_of_Init_Display 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_BOREN$ON 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__pintentry 8 0 CODE 0 intentry dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+?_Hex2Asc 62 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_isr 846 0 CODE 0 text19 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of__CLK3 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+PrintMsg@BLen 69 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_RCIF 65 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_data 72 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_main 4D8 0 CODE 0 maintext dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+btemp 7E 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+start 24 0 CODE 0 init C:\Users\Farhan\AppData\Local\Temp\s554.obj
+_ProcData 5A 0 CODE 0 text2 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CLK1 9B6 0 CODE 0 text14 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CLK2 992 0 CODE 0 text13 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CLK3 96E 0 CODE 0 text12 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+ComputeChkSum@b 66 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CLK4 94A 0 CODE 0 text11 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TMR1H F 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TMR1L E 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_RCREG 1A 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+strlen@cp 68 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TXREG 19 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Farhan\AppData\Local\Temp\s554.obj
+_SPBRG 99 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+wtemp0 7E 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_delay 94A 0 CODE 0 text15 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+?_Asc2Hex 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_recv_Dat 74 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+interrupt_function 8 0 CODE 0 intentry dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hconfig 4010 0 CONFIG 0 config -
+__Lconfig 400E 0 CONFIG 0 config -
+_PrintMsg 736 0 CODE 0 text5 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Init_Serial 9FE 0 CODE 0 text17 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of__stringtab 60C 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+ComputeChkSum@checksum 67 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+__end_of__stringdata 69C 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_isr 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_ComputeChkSum 91A 0 CODE 0 text3 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_delay 91A 0 CODE 0 text15 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_count 5F 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Asc2Hex@Byte1 67 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_dataEnum 60 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hfunctab 0 0 CODE 0 functab -
+__Lfunctab 0 0 CODE 0 functab -
+_RX_Checksum_Prev 5E 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hcommon 0 0 ABS 0 common -
+__Lcommon 0 0 ABS 0 common -
+_PIE1bits 8C 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_PIR1bits C 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of__CLK4 96E 0 CODE 0 text11 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_strlen 7F0 0 CODE 0 text6 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Transmit A18 0 CODE 0 text7 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Habs1 0 0 ABS 0 abs1 -
+__Labs1 0 0 ABS 0 abs1 -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Lsfr0 0 0 ABS 0 sfr0 -
+_tmepHB 58 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+_tmepLB 5A 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__size_of_delay 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Init_Display 7F0 0 CODE 0 text10 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Asc2Hex@Byte2 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Display_Data 2DA 0 CODE 0 text16 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Init_Serial 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hcode 0 0 ABS 0 code -
+__Lcode 0 0 ABS 0 code -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__size_of_Display_Data 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__pcstackBANK0 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_strlen 798 0 CODE 0 text6 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+saved_w 7E 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hinit 24 0 CODE 0 init -
+__Linit 24 0 CODE 0 init -
+__end_of_main 57E 0 CODE 0 maintext dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Htext 0 0 ABS 0 text -
+__Ltext 0 0 ABS 0 text -
+end_of_initialization 52 0 CODE 0 cinit dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Hex2Asc 736 0 CODE 0 text4 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_ComputeChkSum 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_WRT$ON 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__stringtab 600 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of__CLK1 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_RCSTAbits 18 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TRISBbits 86 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TRISCbits 87 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TRISDbits 88 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_PORTBbits 6 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_TXSTAbits 98 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_PORTDbits 8 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_T1CONbits 10 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hstrings 0 0 ABS 0 strings -
+__Lstrings 0 0 ABS 0 strings -
+__pstrings 600 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of__CLK4 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_strlen 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hbank0 0 0 ABS 0 bank0 -
+__Lbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Lbank3 0 0 ABS 0 bank3 -
+___latbits 2 0 ABS 0 - C:\Users\Farhan\AppData\Local\Temp\s554.obj
+__Hpowerup 0 0 CODE 0 powerup -
+Asc2Hex@tmpHB 66 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Lpowerup 0 0 CODE 0 powerup -
+_DRREq_Delay 70 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Hex2Asc 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext1 A40 0 CODE 0 text1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext2 5A 0 CODE 0 text2 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext3 8E4 0 CODE 0 text3 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext4 69C 0 CODE 0 text4 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext5 736 0 CODE 0 text5 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext6 798 0 CODE 0 text6 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext7 A18 0 CODE 0 text7 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__HcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__LcstackBANK1 0 0 ABS 0 cstackBANK1 -
+__ptext8 3E4 0 CODE 0 text8 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_data_Rx_Buff B9 0 BANK1 1 bssBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Init_interrupts A4C 0 CODE 0 text1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext9 9FE 0 CODE 0 text9 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__pcstackBANK1 EF 0 BANK1 1 cstackBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hclrtext 0 0 ABS 0 clrtext -
+__Lclrtext 0 0 ABS 0 clrtext -
+Hex2Asc@Cnt 66 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_ProcData 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+?_ComputeChkSum 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Asc2Hex 4D8 0 CODE 0 text8 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Config_Timer 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Config_Ports 896 0 CODE 0 text18 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Config_Ports 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Hex2Asc@PrtBlkFlag 62 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of__initialization 52 0 CODE 0 cinit dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+PrintMsg@Buf 6B 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Hex2Asc 69C 0 CODE 0 text4 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Asc2Hex@Data 64 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_data_Rx_ASCii A0 0 BANK1 1 bssBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_ProcData 2DA 0 CODE 0 text2 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_RX_Checksum 71 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+strlen@s 67 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hidloc 0 0 IDLOC 0 idloc -
+__Lidloc 0 0 IDLOC 0 idloc -
+_Asc2Hex 3E4 0 CODE 0 text8 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_data_Rx 20 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Transmit A30 0 CODE 0 text7 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_isr 896 0 CODE 0 text19 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Init_interrupts 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_rec_dat EB 0 BANK1 1 bssBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Display_Data@databyte 63 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+?_strlen 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hcinit 5A 0 CODE 0 cinit -
+__Lcinit 2A 0 CODE 0 cinit -
+__CFG_FOSC$HS 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Config_Timer A18 0 CODE 0 text9 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_PrintMsg 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Asc2Hex@tmpLB 65 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Config_Ports 8E4 0 CODE 0 text18 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_main 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Config_Timer 9FE 0 CODE 0 text9 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Hex2Asc@tmp 65 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+clear_ram0 A30 0 CODE 0 clrtext dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of_Transmit 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__pbssBANK0 20 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of__CLK1 9DA 0 CODE 0 text14 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__HbssBANK1 0 0 ABS 0 bssBANK1 -
+__LbssBANK1 0 0 ABS 0 bssBANK1 -
+__pbssBANK1 A0 0 BANK1 1 bssBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Computed_Checksum 52 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext10 7F0 0 CODE 0 text10 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__size_of__CLK2 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext11 94A 0 CODE 0 text11 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext12 96E 0 CODE 0 text12 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext13 992 0 CODE 0 text13 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext14 9B6 0 CODE 0 text14 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Hex2Asc@BinBuf 67 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext15 91A 0 CODE 0 text15 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext16 2DA 0 CODE 0 text16 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext17 9DA 0 CODE 0 text17 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_ComputeChkSum 8E4 0 CODE 0 text3 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__ptext18 896 0 CODE 0 text18 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_PWRTE$OFF 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__HbssCOMMON 0 0 ABS 0 bssCOMMON -
+__LbssCOMMON 0 0 ABS 0 bssCOMMON -
+__ptext19 846 0 CODE 0 text19 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__pbssCOMMON 70 0 COMMON 1 bssCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+Transmit@Dat 61 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Init_Display 846 0 CODE 0 text10 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_INTCONbits B 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hend_init 2A 0 CODE 0 end_init -
+__Lend_init 24 0 CODE 0 end_init -
+__Hreset_vec 6 0 CODE 0 reset_vec -
+__Lreset_vec 0 0 CODE 0 reset_vec -
+__stringdata 60C 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+__CFG_WDTE$OFF 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+__end_of__CLK2 9B6 0 CODE 0 text13 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+__size_of_Asc2Hex 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Farhan\AppData\Local\Temp\s554.obj
+_data_Rx_Prev D2 0 BANK1 1 bssBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Data_CNT 54 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_Display_Data 3E4 0 CODE 0 text16 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+__pcstackCOMMON 75 0 COMMON 1 cstackCOMMON dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_CPD$OFF 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+start_initialization 2A 0 CODE 0 cinit dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__end_of_PrintMsg 798 0 CODE 0 text5 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_RX_Checksum_Curr 5D 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__Hmaintext 0 0 ABS 0 maintext -
+__Lmaintext 0 0 ABS 0 maintext -
+__pmaintext 4D8 0 CODE 0 maintext dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__initialization 2A 0 CODE 0 cinit dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+ProcData@TxData EF 0 BANK1 1 cstackBANK1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__stringbase 60A 0 STRING 0 strings dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+PrintMsg@Cnt 6C 0 BANK0 1 cstackBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_CP$OFF 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Init_interrupts A40 0 CODE 0 text1 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Init_Serial 9DA 0 CODE 0 text17 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+__CFG_LVP$OFF 0 0 ABS 0 - dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+_Chiller_PumpsEnums 5C 0 BANK0 1 bssBANK0 dist/default/production\RIMS_4_BYTE_RECIEVER.X.production.obj
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta> <class name>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+reset_vec 0 0 0 3 2 CODE
+intentry 0 4 8 2BB 2 CODE
+config 0 2007 400E 1 2 CONFIG
+bssCOMMON 1 70 70 A 1 COMMON
+bssBANK1 1 A0 A0 50 1 BANK1
+bssBANK0 1 20 20 50 1 BANK0
+strings 0 300 600 4E 2 STRING
+text4 0 34E 69C 1D8 2 CODE

@@ -1,0 +1,62 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\remote input status monitoring system.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (GATE_&_PIN_SWAP_Scope "0")
+    (GATE_&_PIN_SWAP_File_Name
+       "D:\APAS30CHANNEL\CIRCUIT\OPTOSIDE\REMOTE INPUT STATUS MONITORING SYSTEM.SWP"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CON9
+      (FullPartName "CON9.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\OLDLIBS\DEVICE.OLB")
+      (DeviceIndex "0"))
+    ("CONN ASY PCB 16"
+      (FullPartName "CONN ASY PCB 16A.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    ("CONN ASY MOD 8-8"
+      (FullPartName "CONN ASY MOD 8-8A.Normal")
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\remote input status monitoring system.dsn")
+      (Path "Design Resources" ".\remote input status monitoring system.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" ".\remote input status monitoring system.dsn"
+         "SCHEMATIC1" "PAGE2"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 372 0 587"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 360 1736 128 749")
+        (Scroll "0 0")
+        (Zoom "91")
+        (Occurrence "/"))
+      (Path
+         "D:\APAS30CHANNEL\CIRCUIT\OPTOSIDE\REMOTE INPUT STATUS MONITORING SYSTEM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))))

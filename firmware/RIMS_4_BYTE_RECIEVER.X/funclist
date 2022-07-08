@@ -1,0 +1,24 @@
+__CLK3: CODE, 1207 0 18
+_delay: CODE, 1165 0 24
+_Init_Serial: CODE, 1261 0 18
+__stringtab: STRING, 768 0 6
+__stringdata: STRING, 774 0 72
+_ComputeChkSum: CODE, 1138 0 27
+__CLK4: CODE, 1189 0 18
+_strlen: CODE, 972 0 44
+_main: CODE, 620 0 83
+_Hex2Asc: CODE, 846 0 77
+_Init_interrupts: CODE, 1312 0 6
+_Asc2Hex: CODE, 498 0 122
+__initialization: CODE, 21 0 20
+_ProcData: CODE, 45 0 320
+_Transmit: CODE, 1292 0 12
+_isr: CODE, 1059 0 40
+_Config_Timer: CODE, 1279 0 13
+_Config_Ports: CODE, 1099 0 39
+__CLK1: CODE, 1243 0 18
+_Init_Display: CODE, 1016 0 43
+__CLK2: CODE, 1225 0 18
+_Display_Data: CODE, 365 0 133
+_PrintMsg: CODE, 923 0 49
+Total: 1220
